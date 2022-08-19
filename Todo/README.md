@@ -20,7 +20,7 @@ The project goal is to try to implement the Coordinator pattern in SwiftUI. To b
 ## Pros
 
 - can build large scaled apps
-- dependencies can be easy to inject into a view model
+- dependencies can be easily injected into a view model
 
 
 

@@ -93,6 +93,7 @@
 		CE67A36228AD5A57003FB9C6 /* TaskListItemHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListItemHeaderView.swift; sourceTree = "<group>"; };
 		CE67A36628AD5B09003FB9C6 /* VibrateOnTapModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VibrateOnTapModifier.swift; sourceTree = "<group>"; };
 		CE67A36828AD5E64003FB9C6 /* CreateTaskScreenNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTaskScreenNavigation.swift; sourceTree = "<group>"; };
+		CE67A36E28AE89A4003FB9C6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CE9D189A289EEC8000292187 /* Todo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE9D189D289EEC8000292187 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE9D18A1289EEC8300292187 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -273,6 +274,7 @@
 		CE9D189C289EEC8000292187 /* Todo */ = {
 			isa = PBXGroup;
 			children = (
+				CE67A36E28AE89A4003FB9C6 /* README.md */,
 				CE9D18B8289EF73400292187 /* Info.plist */,
 				CE9D18B2289EF1EA00292187 /* app */,
 				CE9D18A1289EEC8300292187 /* Assets.xcassets */,
