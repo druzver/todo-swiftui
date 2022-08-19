@@ -37,11 +37,14 @@ public class TasksCoreDataProviderImpl : TasksCoreDataProvider {
    
     private (set) var coreDataManager: NSPersistentContainer
     
+    private var bgContext: NSManagedObjectContext
+    
     public var viewContext: NSManagedObjectContext {
-        get { coreDataManager.viewContext }
+        get { bgContext }
     }
     
     public init(coreDataManager: NSPersistentContainer) {
+        bgContext = coreDataManager.newBackgroundContext()
         self.coreDataManager = coreDataManager
     }
     
